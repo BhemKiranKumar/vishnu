@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="Login1.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="curved-shape"></div>
+        <div class="curved-shape2"></div>
+        
+        <!-- Login Form -->
+        <div class="form-box login">
+            <h2 class="animation" style="--D:0; --S:21;">Login</h2>
+            <form action="login.php" method="post">
+                <div class="input-box animation" style="--D:1; --S:22;">
+                    <input type="text" name="Username" required>
+                    <label>Username</label>
+                    <i class='bx bxs-user'></i>
+                </div>
+                <div class="input-box animation" style="--D:2; --S:23;">
+                    <input type="password"  name="password" name="save" required>
+                    <label>Password</label>
+                    <i class='bx bxs-lock-alt'></i>
+                </div>
+                <div class="input-box animation" style="--D:3; --S:24;">
+                    <button class="btn" type="submit">Login</button>
+                </div>
+                <div class="regi-link animation" style="--D:4; --S:25;">
+                    <p> Don't have an account? <a href="#" class="signUpLink">Sign Up</a></p>
+                </div>
+            </form>
+        </div>
+
+        <!-- Login Info Content -->
+        <div class="info-content login">
+            <h2 class="animation" style="--D:0; --S:21;">WELCOME BACK!</h2>
+            <p class="animation" style="--D:1; --S:21;">Kiran nice to see you. Build you'r future as you like 
+            ONE LIFE FULL OF HAPPYNESS?</p>
+        </div>
+        
+        <!-- Registration Form -->
+        <div class="form-box register">
+            <h2 class="animation" style="--li:17; --s:0;">Register</h2>
+            <form action="#">
+                <div class="input-box animation" style="--li:18; --s:1;">
+                    <input type="text" required>
+                    <label>Username</label>
+                    <i class='bx bxs-user'></i>
+                </div>
+                <div class="input-box animation" style="--li:18; --s:1;">
+                    <input type="email" required>
+                    <label>Email</label>
+                    <i class='bx bxs-envelope'></i>
+                </div>
+                <div class="input-box animation" style="--li:19; --s:2;">
+                    <input type="password" required>
+                    <label>Password</label>
+                    <i class='bx bxs-lock-alt'></i>
+                </div>
+                <div class="input-box animation" style="--li:20; --s:3;">
+                    <button class="btn" type="submit">Register</button>
+                </div>
+                <div class="regi-link animation" style="--li:21; --s:4;">
+                    <p>Already have an account? <a href="#" class="signInLink">Sign In</a></p>
+                </div>
+            </form>
+        </div>
+        
+       
+        <div class="info-content register">
+            <h2 class="animation" style="--li:17; --s:0;">WELCOME YOUR THOGHTS!</h2>
+            <p class="animation" style="--li:18; --s:0;">Think big, Dreem big. your thoghts and creation for the future generation?</p>
+        </div>
+    </div>
+    <script src="Login2.Js"></script>
+</body>
+</html>
